@@ -8,7 +8,7 @@ function Footer() {
         <>
             <footer className="footer">
                 <a
-                    href="https://github.com/AadarshVenu/covid19India"
+                    href="https://github.com/AadarshVenu/covidIndia"
                     target="blank"
                 >
                     <div className="github-link">

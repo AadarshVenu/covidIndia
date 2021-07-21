@@ -1,0 +1,14 @@
+.emergency-table{
+    padding: 30px 400px;
+}
+
+.central-contact{
+    width: fit-content;
+    margin: 20px auto;
+}
+
+@media only screen and (max-width: 440px) {
+  .emergency-table{
+      padding: 10%;
+  }
+}

@@ -1,0 +1,26 @@
+.side-nav {
+    width: 240px;
+    background-color: rgba(234, 241, 243, 0.89);
+    position:fixed;  
+    padding: 0 30px;
+    left: -100%;
+    display: block;
+	height: 100vh;
+    top:0;
+}
+
+.side-nav.active {
+    left: 0;
+    transition: 350ms;
+    color: rgb(0, 0, 0);
+}
+
+ul li {
+    list-style-type: none;
+    margin: 80px 0 ;
+    font-size: 20px;
+}
+
+ul li:hover{
+    font-weight: bolder;
+}

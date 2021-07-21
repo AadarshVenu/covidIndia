@@ -1,0 +1,136 @@
+.cases {
+    margin: 20px auto;
+    width: fit-content;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.current {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    width: fit-content;
+}
+.updated-time {
+    text-align: right;
+    margin-right:120px;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.activecases {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    /* border: 0.2px outset rgb(206, 201, 201); */
+    color: rgb(47, 47, 255);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: right;
+}
+
+.recovered {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    /* border: 0.2px outset rgb(206, 201, 201); */
+    /* margin-top: 10px; */
+    color: rgb(48, 201, 27);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: right;
+}
+.confirmed {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    /* border: 0.2px outset rgb(206, 201, 201); */
+    /* margin-top: 10px; */
+    color: rgb(76, 76, 78);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: right;
+}
+
+.deaths {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    /* border: 0.2px outset rgb(206, 201, 201); */
+    /* margin-top: 10px; */
+    color: rgb(255, 47, 47);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 20px;
+    text-align: right;
+}
+.activecases:hover {
+    background-color: rgb(167, 207, 245);
+    box-shadow: 1px 1px rgb(167, 207, 245);
+}
+.recovered:hover {
+    background-color: rgb(193, 250, 196);
+    box-shadow: 1px 1px rgb(193, 250, 196);
+}
+.confirmed:hover {
+    background-color: rgb(193, 194, 196);
+    box-shadow: 1px 1px rgb(193, 194, 196);
+}
+.deaths:hover {
+    background-color: rgb(253, 197, 197);
+    box-shadow: 1px 1px rgb(253, 197, 197);
+}
+
+.updated {
+    margin: 20px 100px;
+}
+
+.delta-cases {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.totalsamples {
+    color: rgb(20, 13, 78);
+    font-family: "Asap", sans-serif;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.vaccine-administered{
+    display: flex;
+    width: fit-content;
+    margin: 10px auto;
+    align-items:center;
+    background-color: rgb(236, 192, 220);
+    padding: 8px;
+    border-radius: 10px;
+    color:rgb(235, 115, 135);
+}
+
+@media only screen and (max-width: 400px) {
+    .current{
+        margin:0 100px;
+    }
+    .cases{
+        margin:0 100px;
+    }
+    .vaccine-administered{
+         margin:0 100px;       
+    }
+}

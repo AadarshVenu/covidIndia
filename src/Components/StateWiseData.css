@@ -1,0 +1,47 @@
+tr {
+    cursor: pointer;
+}
+
+.state-data {
+    margin: 0 100px;
+}
+
+.state-deaths:hover {
+    background-color: rgb(250, 198, 198);
+    color: red;
+}
+.state-recovered:hover {
+    background-color: rgb(207, 250, 198);
+    color: green;
+}
+
+.delta-more {
+    color: red;
+    font-size: 14px;
+}
+
+.delta-less {
+    color: green;
+    font-size: 14px;
+}
+
+.state-name {
+    font-family: "Asap", sans-serif;
+}
+
+.state-confirmed {
+    font-family: "Asap", sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+.state-active {
+    font-family: "Asap", sans-serif;
+}
+
+.state-recovered {
+    font-family: "Asap", sans-serif;
+}
+
+.state-deaths {
+    font-family: "Asap", sans-serif;
+}

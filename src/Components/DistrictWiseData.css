@@ -1,0 +1,10 @@
+.district-data {
+    margin: 40px 100px;
+}
+
+.name-of-state {
+    margin-left: 100px;
+    margin-top: 20px;
+    color: rgb(4, 4, 112);
+    font-family: 'Exo 2', sans-serif;
+}
